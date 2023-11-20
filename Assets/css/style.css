@@ -1,0 +1,116 @@
+body {
+  margin:0, auto;
+  padding: 20px;
+  font-family: 'arial', serif;
+  }
+  
+.nav {
+  color: #000000;
+  list-style: none;
+  text-align: right;
+  padding: 30px 0 10px 0;
+}
+
+.nav > li {
+  display: inline-block;
+  padding: 0 25px 0 25px;
+  font-size: 20px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav >li > a:hover {
+  color: #c1c1c1;
+}
+
+.personalimage {
+  float: left;
+  padding-left: 25px;
+  font-size: 45px;
+  Font-weight: bold;
+  Color: Black;
+}
+  
+.personalimage > a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner > .banner-image {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+header {
+  padding: 20px;
+  background-image: url("Assets/images/WIN_20231107_14_55_08_Pro.jpg");
+  background-position: top right;
+  background-size: 150px 150px;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.project-1, .project-2, .project-3, .project-4 {
+  padding: 50px;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  width: 75%;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.card {
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+#aboutme, #work, #contact, #resume {
+  padding: 30px;
+  text-align: center;
+}
+
+#resume-1, #resume-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.info-2 {
+  
+}
